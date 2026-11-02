@@ -4,3 +4,5 @@ I can create a file and read its contents using Linux commands.
 Recovery lesson: > overwrites a file; >> appends. I used git diff to inspect an accidental overwrite and git restore to recover the committed version.
 
 Permissions lesson: r means read, w means write, and x means execute. chmod go-r removes group and others read access; chmod o+r restores others read access; chmod g+r restores group read access. The mode argument must stay together, such as g+r.
+
+Directory permissions: x allows entering/searching a directory. Removing owner x caused Permission denied; restoring it allowed entry. Linux used the owner permission category without falling back to group or others.
