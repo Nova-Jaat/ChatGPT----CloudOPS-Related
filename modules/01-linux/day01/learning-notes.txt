@@ -6,3 +6,5 @@ Recovery lesson: > overwrites a file; >> appends. I used git diff to inspect an 
 Permissions lesson: r means read, w means write, and x means execute. chmod go-r removes group and others read access; chmod o+r restores others read access; chmod g+r restores group read access. The mode argument must stay together, such as g+r.
 
 Directory permissions: x allows entering/searching a directory. Removing owner x caused Permission denied; restoring it allowed entry. Linux used the owner permission category without falling back to group or others.
+
+Ownership lab: id showed my user and group memberships. I created group-practice.txt and used chgrp users to change its owning group. ls -l confirmed owner sanjeev and group users. Git does not preserve Linux owner/group assignments.
