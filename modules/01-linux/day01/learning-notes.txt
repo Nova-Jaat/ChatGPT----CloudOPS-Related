@@ -10,3 +10,5 @@ Directory permissions: x allows entering/searching a directory. Removing owner x
 Ownership lab: id showed my user and group memberships. I created group-practice.txt and used chgrp users to change its owning group. ls -l confirmed owner sanjeev and group users. Git does not preserve Linux owner/group assignments.
 
 Process lab: ps showed my Bash PID and parent PID. sleep 300 & created a background job. jobs -l listed shell jobs. STOP paused a job, CONT resumed it, and TERM terminated it. START is not a valid signal. CONT cannot restart a terminated process.
+
+Monitoring lab: top showed the earlier update-process CPU spike had dropped. free -h showed 7.1Gi available memory and no swap usage. df reported the Linux root filesystem at 1% usage; WSL virtual capacity is not Windows physical free space. du -sh reported 12K for the Day 1 directory. df measures filesystem capacity; du estimates directory usage.
