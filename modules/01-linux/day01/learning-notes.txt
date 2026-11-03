@@ -8,3 +8,5 @@ Permissions lesson: r means read, w means write, and x means execute. chmod go-r
 Directory permissions: x allows entering/searching a directory. Removing owner x caused Permission denied; restoring it allowed entry. Linux used the owner permission category without falling back to group or others.
 
 Ownership lab: id showed my user and group memberships. I created group-practice.txt and used chgrp users to change its owning group. ls -l confirmed owner sanjeev and group users. Git does not preserve Linux owner/group assignments.
+
+Process lab: ps showed my Bash PID and parent PID. sleep 300 & created a background job. jobs -l listed shell jobs. STOP paused a job, CONT resumed it, and TERM terminated it. START is not a valid signal. CONT cannot restart a terminated process.
