@@ -14,6 +14,10 @@ flowchart TD
     Hub --> M3["Module 3: Modern AI Infra & GPU Serving Stack"]
     Hub --> M4["Module 4: Enterprise Cloud DevSecOps & Zero-Trust"]
     Hub --> M5["Module 5: Master Roadmaps & Architecture Blueprints"]
+    Hub --> M6["Module 6: SRE & DevOps Interview Preparation Guide"]
+    Hub --> M7["Module 7: AI Career Playbooks & Direct ATS Strategy"]
+    Hub --> M8["Module 8: AI Automation Agency (AAA) & Enterprise Blueprints"]
+    Hub --> M9["Module 9: Automation Scripts, MCP & Tooling"]
 
     M2 --> AWS["AWS Deep Dives (VPCs, WAF, S3, ML Architecture)"]
     M2 --> K8s["Kubernetes, Containers & CNI Networking"]
@@ -23,7 +27,7 @@ flowchart TD
 
 ---
 
-## 📚 Module Overview
+## 📚 Complete Module Breakdown
 
 | Module | Category | Description | Direct Access |
 |:---|:---|:---|:---|
@@ -32,6 +36,10 @@ flowchart TD
 | **Module 03** | Modern AI Infra Stack | Curated architecture guide on the top 10 open-source platforms for AI/ML workloads (vLLM, Triton, KEDA, Kubeflow, ArgoCD). | [Explore Module 03](modules/03-modern-ai-infra-stack/) |
 | **Module 04** | Cloud DevSecOps & Security | Zero-Trust architecture, container vulnerability scanning, secrets lifecycle, and compliance frameworks. | [Explore Module 04](modules/04-cloud-devsecops-security/) |
 | **Module 05** | Master Roadmaps & Blueprints | Multi-Cloud DevOps & AI Master Roadmap and full-scale enterprise blueprints. | [Explore Module 05](modules/05-master-roadmaps-and-blueprints/) |
+| **Module 06** | Interview Preparation & SRE | Top 20 DevOps scenarios, PTC Senior DevOps questions, and Zero-to-Hero compendium. | [Explore Module 06](modules/06-interview-preparation-and-sre/) |
+| **Module 07** | Career Playbooks & ATS | AI Job Hunting Playbook 2026, ATS Search Matrix, Interactive ATS Launcher tool, and CloudOps roadmap. | [Explore Module 07](modules/07-career-playbooks-and-ats-strategy/) |
+| **Module 08** | AI Automation Agency (AAA) | 0-to-$10k Agency Roadmap, service delivery models, weekly operations, and business translation guides. | [Explore Module 08](modules/08-ai-automation-agency-framework/) |
+| **Module 09** | Automation Scripts & MCP | YouTube transcript processors, Google Drive downloaders, and Antigravity Stitch MCP integration. | [Explore Module 09](modules/09-automation-scripts-and-tools/) |
 
 ---
 
